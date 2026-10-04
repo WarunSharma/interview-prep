@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T12:51:26Z",
+  "updatedAt": "2026-10-04T16:09:14Z",
   "items": {
+    "practice/2026/dsa/dynamic-programming/climbing-stairs.js": {
+      "sourcePath": "practice/2026/dsa/dynamic-programming/climbing-stairs.js",
+      "sourceHash": null,
+      "category": "DSA",
+      "tags": [
+        "dynamic-programming",
+        "fibonacci",
+        "space-optimization"
+      ],
+      "interviewWeight": {
+        "value": 3,
+        "source": "user-assigned",
+        "rationale": "Foundational dynamic programming problem that demonstrates recurrence derivation and space optimization.",
+        "classifiedAt": "2026-10-04T16:09:14Z"
+      },
+      "revision": {
+        "stage": 2,
+        "lastSeenAt": "2026-10-04T16:09:14Z",
+        "lastRevisedAt": "2026-10-04T16:09:14Z",
+        "nextReviewAt": "2026-10-07T16:09:14Z",
+        "lastOutcome": "REVISED_AND_CLEAR",
+        "revisionCount": 1,
+        "needsWorkCount": 0
+      },
+      "history": [
+        {
+          "reviewedAt": "2026-10-04T16:09:14Z",
+          "outcome": "REVISED_AND_CLEAR",
+          "stageBefore": 0,
+          "stageAfter": 2,
+          "nextReviewAt": "2026-10-07T16:09:14Z"
+        }
+      ]
+    },
     "practice/2026/dsa/stack/daily-temperatures.js": {
       "sourcePath": "practice/2026/dsa/stack/daily-temperatures.js",
       "sourceHash": null,
