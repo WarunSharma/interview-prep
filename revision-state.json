@@ -1,7 +1,41 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T16:09:14Z",
+  "updatedAt": "2026-10-04T17:02:08Z",
   "items": {
+    "practice/2026/dsa/dynamic-programming/coin-change.js": {
+      "sourcePath": "practice/2026/dsa/dynamic-programming/coin-change.js",
+      "sourceHash": null,
+      "category": "DSA",
+      "tags": [
+        "dynamic-programming",
+        "unbounded-knapsack",
+        "recursion"
+      ],
+      "interviewWeight": {
+        "value": 4,
+        "source": "user-assigned",
+        "rationale": "Core interview dynamic programming problem that contrasts exponential recursion with bottom-up optimization.",
+        "classifiedAt": "2026-10-04T17:02:08Z"
+      },
+      "revision": {
+        "stage": 2,
+        "lastSeenAt": "2026-10-04T17:02:08Z",
+        "lastRevisedAt": "2026-10-04T17:02:08Z",
+        "nextReviewAt": "2026-10-07T17:02:08Z",
+        "lastOutcome": "REVISED_AND_CLEAR",
+        "revisionCount": 1,
+        "needsWorkCount": 0
+      },
+      "history": [
+        {
+          "reviewedAt": "2026-10-04T17:02:08Z",
+          "outcome": "REVISED_AND_CLEAR",
+          "stageBefore": 0,
+          "stageAfter": 2,
+          "nextReviewAt": "2026-10-07T17:02:08Z"
+        }
+      ]
+    },
     "practice/2026/dsa/dynamic-programming/climbing-stairs.js": {
       "sourcePath": "practice/2026/dsa/dynamic-programming/climbing-stairs.js",
       "sourceHash": null,
