@@ -2,6 +2,7 @@
 // https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
 // Brute force solution
+// Time complexity: O(n^2), Space complexity: O(1)
 var maxProfit = function(prices) {
     let maxProfit = 0;
     for (let i = 0; i < prices.length; i++) {
@@ -16,7 +17,8 @@ var maxProfit = function(prices) {
 };
 
 // Optimized solution
-var maxProfitOptimized = function(prices) {
+// Time complexity: O(n), Space complexity: O(1)
+var maxProfit = function(prices) {
     let minPrice = Infinity;
     let maxProfit = 0;
     for (let price of prices) {

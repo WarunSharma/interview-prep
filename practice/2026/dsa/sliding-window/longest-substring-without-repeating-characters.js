@@ -2,6 +2,7 @@
 // https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 // Brute force solution
+// Time complexity: O(n^2), Space complexity: O(1) because there are only 26 characters in the alphabet
 var lengthOfLongestSubstring = function(s) {
     let maxLength = 0;
     for (let i = 0; i < s.length; i++) {
@@ -18,6 +19,7 @@ var lengthOfLongestSubstring = function(s) {
 }
 
 // Optimal solution using sliding window
+// Time complexity: O(n), Space complexity: O(1) because there are only 26 characters in the alphabet
 var lengthOfLongestSubstring = function(s) {
     let set = new Set();
     let right = 0, left = 0;
