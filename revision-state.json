@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T02:50:50Z",
+  "updatedAt": "2026-10-05T14:58:24Z",
   "items": {
     "practice/2026/dsa/heap-priority-queue/kth-largest-element-in-an-array.js": {
       "sourcePath": "practice/2026/dsa/heap-priority-queue/kth-largest-element-in-an-array.js",
@@ -136,6 +136,78 @@
           "stageBefore": 0,
           "stageAfter": 2,
           "nextReviewAt": "2026-10-07T12:49:50Z"
+        }
+      ]
+    },
+    "knowledge/javascript/07-closures-in-depth.js": {
+      "sourcePath": "knowledge/javascript/07-closures-in-depth.js",
+      "sourceHash": null,
+      "category": "JavaScript",
+      "tags": [
+        "closures",
+        "lexical-scope",
+        "private-state",
+        "function-factories",
+        "memory-management"
+      ],
+      "interviewWeight": {
+        "value": 4,
+        "source": "user-assigned",
+        "rationale": "Core JavaScript interview topic covering lexical scope, captured bindings, private state, and common closure patterns.",
+        "classifiedAt": "2026-10-05T14:58:24Z"
+      },
+      "revision": {
+        "stage": 1,
+        "lastSeenAt": "2026-10-05T14:58:24Z",
+        "lastRevisedAt": "2026-10-05T14:58:24Z",
+        "nextReviewAt": "2026-10-06T14:58:24Z",
+        "lastOutcome": "REVISED_AND_CLEAR",
+        "revisionCount": 1,
+        "needsWorkCount": 0
+      },
+      "history": [
+        {
+          "reviewedAt": "2026-10-05T14:58:24Z",
+          "outcome": "REVISED_AND_CLEAR",
+          "stageBefore": 0,
+          "stageAfter": 1,
+          "nextReviewAt": "2026-10-06T14:58:24Z"
+        }
+      ]
+    },
+    "knowledge/javascript/08-the-this-keyword.js": {
+      "sourcePath": "knowledge/javascript/08-the-this-keyword.js",
+      "sourceHash": null,
+      "category": "JavaScript",
+      "tags": [
+        "this",
+        "function-binding",
+        "arrow-functions",
+        "call-apply-bind",
+        "strict-mode"
+      ],
+      "interviewWeight": {
+        "value": 4,
+        "source": "user-assigned",
+        "rationale": "Core JavaScript interview topic covering call-site binding rules, method detachment, arrows, and explicit binding.",
+        "classifiedAt": "2026-10-05T14:58:24Z"
+      },
+      "revision": {
+        "stage": 1,
+        "lastSeenAt": "2026-10-05T14:58:24Z",
+        "lastRevisedAt": "2026-10-05T14:58:24Z",
+        "nextReviewAt": "2026-10-06T14:58:24Z",
+        "lastOutcome": "REVISED_AND_CLEAR",
+        "revisionCount": 1,
+        "needsWorkCount": 0
+      },
+      "history": [
+        {
+          "reviewedAt": "2026-10-05T14:58:24Z",
+          "outcome": "REVISED_AND_CLEAR",
+          "stageBefore": 0,
+          "stageAfter": 1,
+          "nextReviewAt": "2026-10-06T14:58:24Z"
         }
       ]
     }
