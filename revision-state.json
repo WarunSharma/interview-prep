@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-04T17:02:08Z",
+  "updatedAt": "2026-10-05T02:50:50Z",
   "items": {
+    "practice/2026/dsa/heap-priority-queue/kth-largest-element-in-an-array.js": {
+      "sourcePath": "practice/2026/dsa/heap-priority-queue/kth-largest-element-in-an-array.js",
+      "sourceHash": null,
+      "category": "DSA",
+      "tags": [
+        "heap",
+        "priority-queue",
+        "quickselect",
+        "arrays"
+      ],
+      "interviewWeight": {
+        "value": 4,
+        "source": "user-assigned",
+        "rationale": "Core interview selection problem that compares sorting, bounded heaps, and Quickselect.",
+        "classifiedAt": "2026-10-05T02:48:34Z"
+      },
+      "revision": {
+        "stage": 1,
+        "lastSeenAt": "2026-10-05T02:48:34Z",
+        "lastRevisedAt": "2026-10-05T02:48:34Z",
+        "nextReviewAt": "2026-10-06T02:48:34Z",
+        "lastOutcome": "REVISED_AND_CLEAR",
+        "revisionCount": 1,
+        "needsWorkCount": 0
+      },
+      "history": [
+        {
+          "reviewedAt": "2026-10-05T02:48:34Z",
+          "outcome": "REVISED_AND_CLEAR",
+          "stageBefore": 0,
+          "stageAfter": 1,
+          "nextReviewAt": "2026-10-06T02:48:34Z"
+        }
+      ]
+    },
     "practice/2026/dsa/dynamic-programming/coin-change.js": {
       "sourcePath": "practice/2026/dsa/dynamic-programming/coin-change.js",
       "sourceHash": null,
