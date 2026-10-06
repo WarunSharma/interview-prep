@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T17:35:36.797Z",
+  "updatedAt": "2026-10-06T06:55:00.000Z",
   "items": {
     "practice/2026/dsa/heap-priority-queue/kth-largest-element-in-an-array.js": {
       "sourcePath": "practice/2026/dsa/heap-priority-queue/kth-largest-element-in-an-array.js",
@@ -34,6 +34,42 @@
           "stageBefore": 0,
           "stageAfter": 1,
           "nextReviewAt": "2026-10-06T02:48:34Z"
+        }
+      ]
+    },
+    "practice/2026/dsa/heap-priority-queue/top-k-frequent-elements.js": {
+      "sourcePath": "practice/2026/dsa/heap-priority-queue/top-k-frequent-elements.js",
+      "sourceHash": null,
+      "category": "DSA",
+      "tags": [
+        "heap",
+        "priority-queue",
+        "hash-map",
+        "bucket-sort",
+        "arrays"
+      ],
+      "interviewWeight": {
+        "value": 5,
+        "source": "user-assigned",
+        "rationale": "Classic interview problem contrasting frequency map + Min-Heap with O(N) Bucket Sort optimization.",
+        "classifiedAt": "2026-10-06T06:55:00.000Z"
+      },
+      "revision": {
+        "stage": 1,
+        "lastSeenAt": "2026-10-06T06:55:00.000Z",
+        "lastRevisedAt": "2026-10-06T06:55:00.000Z",
+        "nextReviewAt": "2026-10-07T06:55:00.000Z",
+        "lastOutcome": "REVISED_AND_CLEAR",
+        "revisionCount": 1,
+        "needsWorkCount": 0
+      },
+      "history": [
+        {
+          "reviewedAt": "2026-10-06T06:55:00.000Z",
+          "outcome": "REVISED_AND_CLEAR",
+          "stageBefore": 0,
+          "stageAfter": 1,
+          "nextReviewAt": "2026-10-07T06:55:00.000Z"
         }
       ]
     },
