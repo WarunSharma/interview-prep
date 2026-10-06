@@ -1,6 +1,7 @@
+// https://leetcode.com/problems/minimum-window-substring/
 
 // Brute force
-
+// Time complexity: O(n^3), Space complexity: O(1) because there are only 26 characters in the alphabet
 var minWindow = function(s, t) {
     let minLength = Infinity;
     let result = "";
@@ -41,7 +42,7 @@ function containsSubs(subs, t) {
 }
 
 // Optimal Solution: Sliding window
-
+// Time complexity: O(n), Space complexity: O(1) because there are only 26 characters in the alphabet
 var minWindow = function(s, t) {
     if (!s || !t || s.length < t.length)
         return "";

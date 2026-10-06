@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T07:00:00.000Z",
+  "updatedAt": "2026-10-06T07:30:00.000Z",
   "items": {
     "practice/2026/dsa/heap-priority-queue/kth-largest-element-in-an-array.js": {
       "sourcePath": "practice/2026/dsa/heap-priority-queue/kth-largest-element-in-an-array.js",
@@ -350,6 +350,41 @@
           "stageBefore": 0,
           "stageAfter": 2,
           "nextReviewAt": "2026-10-08T17:35:36.797Z"
+        }
+      ]
+    },
+    "practice/2026/dsa/sliding-window/minimum-window-substring.js": {
+      "sourcePath": "practice/2026/dsa/sliding-window/minimum-window-substring.js",
+      "sourceHash": null,
+      "category": "DSA",
+      "tags": [
+        "sliding-window",
+        "strings",
+        "hash-map",
+        "two-pointers"
+      ],
+      "interviewWeight": {
+        "value": 5,
+        "source": "user-assigned",
+        "rationale": "Hard but classic sliding-window problem that tests frequency counting, expanding and shrinking windows, and tracking when all requirements are satisfied.",
+        "classifiedAt": "2026-10-06T07:30:00.000Z"
+      },
+      "revision": {
+        "stage": 2,
+        "lastSeenAt": "2026-10-06T07:30:00.000Z",
+        "lastRevisedAt": "2026-10-06T07:30:00.000Z",
+        "nextReviewAt": "2026-10-09T07:30:00.000Z",
+        "lastOutcome": "REVISED_AND_CLEAR",
+        "revisionCount": 1,
+        "needsWorkCount": 0
+      },
+      "history": [
+        {
+          "reviewedAt": "2026-10-06T07:30:00.000Z",
+          "outcome": "REVISED_AND_CLEAR",
+          "stageBefore": 0,
+          "stageAfter": 2,
+          "nextReviewAt": "2026-10-09T07:30:00.000Z"
         }
       ]
     }
