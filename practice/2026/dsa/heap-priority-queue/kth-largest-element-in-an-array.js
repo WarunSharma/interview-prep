@@ -2,12 +2,14 @@
 // https://leetcode.com/problems/kth-largest-element-in-an-array/
 
 // Brute force solution
+// Time complexity: O(n log n), Space complexity: O(1)
 var findKthLargest = function(nums, k) {
     nums.sort((a, b) => a - b);
     return nums[nums.length - k];
 };
 
 // Better solution
+// Time complexity: O(n log k), Space complexity: O(k)
 var findKthLargest = function(nums, k) {
     const minHeap = new MminHeap();
 
@@ -27,19 +29,23 @@ class MminHeap {
         this.data = [];
     }
 
+    // Time complexity: O(1), Space complexity: O(1)
     size() {
         return this.data.length;
     }
 
+    // Time complexity: O(1), Space complexity: O(1)
     peak() {
         return this.data[0];
     }
 
+    // Time complexity: O(log k), Space complexity: O(1); k is the size of the heap
     push(value) {
         this.data.push(value);
         this.bubbleUp(this.data.length - 1);
     }
 
+    // Time complexity: O(log k), Space complexity: O(1); k is the size of the heap
     pop() {
         let min = this.data[0];
         let last = this.data.pop();
@@ -52,6 +58,7 @@ class MminHeap {
         return min;
     }
 
+    // Time complexity: O(log k), Space complexity: O(1); k is the size of the heap
     bubbleUp(index) {
         while (index > 0) {
             let parent = Math.floor((index - 1) / 2);
@@ -64,6 +71,7 @@ class MminHeap {
         }
     }
 
+    // Time complexity: O(log k), Space complexity: O(1); k is the size of the heap
     bubbleDown(index) {
         let length = this.data.length;
 
@@ -91,6 +99,7 @@ class MminHeap {
 }
 
 // Optimal solution
+// Time complexity: O(n log k), Space complexity: O(k)
 var findKthLargest = function(nums, k) {
     const minHeap = new MinPriorityQueue();
     for (const num of nums) {
