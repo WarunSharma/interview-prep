@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T06:55:00.000Z",
+  "updatedAt": "2026-10-06T07:00:00.000Z",
   "items": {
     "practice/2026/dsa/heap-priority-queue/kth-largest-element-in-an-array.js": {
       "sourcePath": "practice/2026/dsa/heap-priority-queue/kth-largest-element-in-an-array.js",
@@ -244,6 +244,42 @@
           "stageBefore": 0,
           "stageAfter": 1,
           "nextReviewAt": "2026-10-06T14:58:24Z"
+        }
+      ]
+    },
+    "knowledge/javascript/09-call-apply-bind-and-currying.js": {
+      "sourcePath": "knowledge/javascript/09-call-apply-bind-and-currying.js",
+      "sourceHash": null,
+      "category": "JavaScript",
+      "tags": [
+        "call-apply-bind",
+        "currying",
+        "partial-application",
+        "function-binding",
+        "higher-order-functions"
+      ],
+      "interviewWeight": {
+        "value": 4,
+        "source": "user-assigned",
+        "rationale": "Core JavaScript interview topic covering explicit this binding, bind polyfills, partial application, and currying patterns.",
+        "classifiedAt": "2026-10-06T07:00:00.000Z"
+      },
+      "revision": {
+        "stage": 2,
+        "lastSeenAt": "2026-10-06T07:00:00.000Z",
+        "lastRevisedAt": "2026-10-06T07:00:00.000Z",
+        "nextReviewAt": "2026-10-09T07:00:00.000Z",
+        "lastOutcome": "REVISED_AND_CLEAR",
+        "revisionCount": 1,
+        "needsWorkCount": 0
+      },
+      "history": [
+        {
+          "reviewedAt": "2026-10-06T07:00:00.000Z",
+          "outcome": "REVISED_AND_CLEAR",
+          "stageBefore": 0,
+          "stageAfter": 2,
+          "nextReviewAt": "2026-10-09T07:00:00.000Z"
         }
       ]
     },
