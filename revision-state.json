@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-10T11:06:26.989Z",
+  "updatedAt": "2026-10-10T12:37:38.670Z",
   "items": {
     "practice/2026/dsa/heap-priority-queue/kth-largest-element-in-an-array.js": {
       "sourcePath": "practice/2026/dsa/heap-priority-queue/kth-largest-element-in-an-array.js",
@@ -468,12 +468,12 @@
         "classifiedAt": "2026-10-06T07:30:00.000Z"
       },
       "revision": {
-        "stage": 2,
-        "lastSeenAt": "2026-10-06T07:30:00.000Z",
-        "lastRevisedAt": "2026-10-06T07:30:00.000Z",
-        "nextReviewAt": "2026-10-10T08:00:00.000Z",
+        "stage": 3,
+        "lastSeenAt": "2026-10-10T12:37:38.670Z",
+        "lastRevisedAt": "2026-10-10T12:37:38.670Z",
+        "nextReviewAt": "2026-10-17T12:37:38.670Z",
         "lastOutcome": "REVISED_AND_CLEAR",
-        "revisionCount": 1,
+        "revisionCount": 2,
         "needsWorkCount": 0
       },
       "history": [
@@ -483,6 +483,13 @@
           "stageBefore": 0,
           "stageAfter": 2,
           "nextReviewAt": "2026-10-09T07:30:00.000Z"
+        },
+        {
+          "reviewedAt": "2026-10-10T12:37:38.670Z",
+          "outcome": "REVISED_AND_CLEAR",
+          "stageBefore": 2,
+          "stageAfter": 3,
+          "nextReviewAt": "2026-10-17T12:37:38.670Z"
         }
       ]
     },
