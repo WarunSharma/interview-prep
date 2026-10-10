@@ -339,8 +339,8 @@
         }
       ]
     },
-    "knowledge/javascript/10.-higher.js": {
-      "sourcePath": "knowledge/javascript/10.-higher.js",
+    "knowledge/javascript/10.higher-order-functions-and-functional-patterns.js": {
+      "sourcePath": "knowledge/javascript/10.higher-order-functions-and-functional-patterns.js",
       "sourceHash": null,
       "category": "JavaScript",
       "tags": [
@@ -359,7 +359,7 @@
         "stage": 2,
         "lastSeenAt": "2026-10-07T09:30:00.000Z",
         "lastRevisedAt": "2026-10-07T09:30:00.000Z",
-        "nextReviewAt": "2026-10-10T09:30:00.000Z",
+        "nextReviewAt": "2026-10-11T08:00:00.000Z",
         "lastOutcome": "REVISED_AND_CLEAR",
         "revisionCount": 1,
         "needsWorkCount": 0
@@ -546,7 +546,7 @@
         "stage": 1,
         "lastSeenAt": "2026-10-09T10:00:00.000Z",
         "lastRevisedAt": "2026-10-09T10:00:00.000Z",
-        "nextReviewAt": "2026-10-10T10:00:00.000Z",
+        "nextReviewAt": "2026-10-11T08:00:00.000Z",
         "lastOutcome": "REVISED_AND_CLEAR",
         "revisionCount": 1,
         "needsWorkCount": 0
