@@ -2,7 +2,7 @@
 // https://leetcode.com/problems/find-median-from-data-stream
 
 // Brute force solution
-
+// Time complexity: O(n log n), Space complexity: O(n)
 var MedianFinder = function() {
     this.stream = [];
 };
@@ -36,6 +36,7 @@ MedianFinder.prototype.findMedian = function() {
 
 
 // Optimal solution
+// Time complexity: O(log n), Space complexity: O(n)
 var MedianFinder = function() {
     this.small = new MaxPriorityQueue();
     this.large = new MinPriorityQueue();
