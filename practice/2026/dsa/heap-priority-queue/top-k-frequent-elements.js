@@ -2,6 +2,7 @@
 // https://leetcode.com/problems/top-k-frequent-elements
 
 // Brute force solution
+// Time complexity: O(n log n), Space complexity: O(n)
 var topKFrequent = function(nums, k) {
     let map = new Map();
 
@@ -20,6 +21,7 @@ var topKFrequent = function(nums, k) {
 };
 
 // Optimal solution
+// Time complexity: O(n log k), Space complexity: O(n)
 var topKFrequent = function(nums, k) {
     let map = new Map();
 
